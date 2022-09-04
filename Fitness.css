@@ -1,0 +1,108 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0.5px;
+    padding: 5px; 
+}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box1{
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
+.head1{
+    color: #4CA399;
+    font-size: 40px;
+    padding: 8px;
+    padding-left: 15px;
+    
+}
+.head2{
+    color: #C1DE2F;
+    font-size: 25px;
+    padding: 15px;
+}
+.phara{
+    color: #ABABAD;
+    font-size: 19px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.row {
+    display: flex;
+   
+  }
+  
+.column {
+    flex: 50%;
+}
+div#part1{
+    background-color: #2BB3B1;
+    color: white;
+}
+div#part2{
+    background-color: #4ABEBD;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    padding: 15px 25px;
+}
+#price{
+
+    padding-top: 15px;
+    padding-left: 25px;
+    width: 40px;
+    font-size: 40px;
+}
+#month{
+    font-size: 20px;
+}
+#access{
+    padding-left: 25px;
+    font-size: 35px;
+}
+.sign-up{
+    width: 45%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #BFDF32;
+    color: white;
+    font-size: 30px;
+    border-color: #BFDF32;
+}
+.button1{
+    padding-top: 25px;
+    padding-left: 25%;
+}
+li{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 25px;
+}
+.why{
+    padding-left: 35px;
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    .box1{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .row{
+        width: 100%;
+        display: inline-block;
+    }
+    #part1{
+        width: 100%;
+        display: block;
+    }
+    #part2{
+        width: 100%;
+        display: block;
+    }
+  }
